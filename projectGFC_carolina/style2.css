@@ -1,0 +1,250 @@
+:root {
+    --green1: #ff5252;
+    --green2: #ff8a65;
+    --green3: #ffccbc;
+    --beige: white;
+    --borderradius: 5px;
+  }
+
+
+.nav-link{
+    color: black;
+}
+
+
+.cardwidh{
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+
+.cardmrg{
+    margin: 10px;
+}
+
+.marginextra{
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    background-color: #ff5252; 
+    display: flex;  
+    align-items: center;
+    padding: 10px 20px; 
+    color: white; 
+ }
+
+nav img {
+    height: 100%;
+    margin-right: 10%;
+}
+
+/* margin logo*/
+.marginlogo {
+    margin-left: 10px;
+  }
+
+
+
+  .read-more {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    margin-left: 280px;
+    background-color: var(--green1);
+    color: var(--beige);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .read-more:hover {
+    background-color: var(--green2);
+  }
+
+  
+  /* Carousel */
+  
+  .carousel-caption {
+    background-color: var(--green2);
+    border: 0px solid var(--beige);
+    padding: 20px;
+    border-radius: var(--borderradius);
+  }
+
+ 
+
+  /* Footer */
+footer {
+    background-color: #ff8a65;
+    padding: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer div {
+    display: flex;
+    align-items: center;
+  }
+  
+  footer img {
+    height: 30px;
+    margin-left: 20px;
+  }
+
+  footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* -- Index Page -- */
+  
+  /* Intro  */
+  .intro {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .intro img,
+  .intro p {
+    margin: 0 12px;
+  }
+  
+  .carousel-caption {
+    background-color: var(--green2);
+    border: 1px solid var(--beige);
+    padding: 10px;
+    border-radius: var(--borderradius);
+  }
+  
+  .post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    border: var(--green1) solid 0px;
+    border-radius: var(--borderradius);
+  }
+  .destinationAlignImg {
+    justify-content:space-between;
+  }
+  
+  .post img {
+    width: 300px;
+    max-height: 168px;
+  }
+  
+  .postBlogImg {
+    margin-right: 30px;
+  }
+  
+  .postDestinationsImg {
+    margin-left: 30px;
+  }
+  
+  .post div {
+    flex: 1;
+  }
+  .postBlogText {
+    margin-right: 50px;
+  }
+  
+  .postDestinationsText {
+    margin-left: 50px;
+  }
+  
+  .post li {
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  .post h2 {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .post h2,
+  .post p {
+    margin-top: 10px;
+  }
+  
+  .post button.read-more {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    margin-left: 280px;
+    background-color: var(--green1);
+    color: var(--beige);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .read-more:hover {
+    background-color: var(--green3);
+  }
+
+/* Contact Form Section */
+.contact-form {
+    background-color: var(--green2);
+    padding: 10px 20px;
+    border: 1px solid var(--green2);
+    border-radius: var(--borderradius);
+  }
+  
+  .contact-form h2 {
+    color: var(--beige);
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--beige);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: var(--green1);
+    color: var(--beige);
+    border: none;
+    border-radius: var(--borderradius);
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: var(--green3);
+  }
+  
+  .contact-button {
+    text-align: center;
+  }
+
+  .nl{
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+  .text{
+    padding-left: 280px;
+    padding-right: 280px;
+  }
