@@ -192,6 +192,9 @@ footer {
     text-align: center;
   }
   
+
+
+  
   .read-more:hover {
     background-color: var(--green3);
   }
@@ -248,3 +251,5 @@ footer {
     padding-left: 280px;
     padding-right: 280px;
   }
+
+  
