@@ -6,6 +6,10 @@
     --borderradius: 5px;
   }
 
+  p {
+    text-align: justify;
+  }
+
 
 .nav-link{
     color: black;
